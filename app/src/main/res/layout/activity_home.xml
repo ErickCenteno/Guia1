@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img6"
+    tools:context=".HomeActivity">
+
+    <!-- Texto de bienvenida -->
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="BIENVENIDO"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"/>
+
+    <!-- Nombre del usuario -->
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"/>
+
+    <!-- Botón de Web -->
+    <Button
+        android:id="@+id/webButton"
+        android:text="Web"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3" />
+
+    <!-- Botón de Tel -->
+    <Button
+        android:id="@+id/telButton"
+        android:text="Tel"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"/>
+
+    <!-- Botón de Aplicaciones -->
+    <Button
+        android:id="@+id/appsButton"
+        android:text="Aplicaciones"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#03A9F4"/>
+
+</LinearLayout>

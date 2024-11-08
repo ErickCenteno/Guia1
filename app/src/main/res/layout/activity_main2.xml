@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img3"
+    tools:context=".MainActivity2">
+
+    <!-- Texto de Aplicaciones -->
+    <TextView
+        android:id="@+id/Aplicaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="Aplicaciones"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Botón de Multiplicacion Rusa -->
+    <Button
+        android:id="@+id/BtnMultiplicacionRusa"
+        android:text="Mutiplicacion Rusa"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#2196F3"/>
+
+    <!-- Botón de Numero Primo -->
+    <Button
+        android:id="@+id/BtnNumeroPrimo"
+        android:text="Numero Primo"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#2196F3"/>
+
+    <!-- Botón de Palindromo -->
+    <Button
+        android:id="@+id/BtnPalindromo"
+        android:text="Palindromo"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#2196F3"/>
+
+    <!-- Botón de Acerca de -->
+    <Button
+        android:id="@+id/BtnAcercaDe"
+        android:text="Acerca de"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>
